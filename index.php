@@ -92,7 +92,7 @@
                             <div class="col-md-5 welcomeLetter">
                                 <blockquote>
                                     <h2>A Message from the Chief</h2>
-                                    <img src="img/Conklin_JJ_C4A.jpg" alt="J.J. Conklin" width="200px" align="left">
+                                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/Conklin_JJ_C4A.jpg" alt="J.J. Conklin" width="200px" align="left">
                                     <p>Welcome superheroes and Arrowmen of Section C-4A! I am thoroughly excited to have
                                         the opportunity to ensure a spectacular Conclave for the Arrowmen of this
                                         section. In fact, I am excited for all the Arrowmen that will attend this
@@ -117,7 +117,7 @@
                             </div>
                             <div class="col-md-4 text-center">
                                 <h2>Special Guest:</h2>
-                                <img src="img/2017-Gertin-Forrest-Chief-200.jpg" alt="Forrest Gertin">
+                                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/2017-Gertin-Forrest-Chief-200.jpg" alt="Forrest Gertin">
                                 <div class="caption">
                                     <h3>Forrest Gertin <br/>
                                         <small>2017 National Chief</small>
@@ -207,16 +207,16 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/vendor/jquery-1.11.2.min.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/js/vendor/jquery-1.11.2.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/material.min.js"></script>
-<script src="js/ripples.min.js"></script>
-<script src="js/jquery.scrolly.js"></script>
-<script src="js/jquery.particleground.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/countdown.js"></script>
-<script src="js/functions.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/js/material.min.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/js/ripples.min.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery.scrolly.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery.particleground.min.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/js/main.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/js/countdown.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/js/functions.js"></script>
 
 <script>
     $(function(){
