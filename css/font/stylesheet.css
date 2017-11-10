@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'Toonacious BB';
+	src: url('ToonaciousBB-Italic.eot');
+	src: url('ToonaciousBB-Italic.eot?#iefix') format('embedded-opentype'),
+		url('ToonaciousBB-Italic.woff') format('woff'),
+		url('ToonaciousBB-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Toonacious BB';
+	src: url('ToonaciousBB.eot');
+	src: url('ToonaciousBB.eot?#iefix') format('embedded-opentype'),
+		url('ToonaciousBB.woff') format('woff'),
+		url('ToonaciousBB.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_sans';
+    src: url('museosans_300-webfont.eot');
+    src: url('museosans_300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museosans_300-webfont.woff2') format('woff2'),
+         url('museosans_300-webfont.woff') format('woff'),
+         url('museosans_300-webfont.ttf') format('truetype'),
+         url('museosans_300-webfont.svg#museo_sans300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_sans_italic';
+    src: url('museosans_300_italic-webfont.eot');
+    src: url('museosans_300_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museosans_300_italic-webfont.woff2') format('woff2'),
+         url('museosans_300_italic-webfont.woff') format('woff'),
+         url('museosans_300_italic-webfont.ttf') format('truetype'),
+         url('museosans_300_italic-webfont.svg#museo_sans300_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_slab';
+    src: url('museo_slab_700-webfont.eot');
+    src: url('museo_slab_700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museo_slab_700-webfont.woff2') format('woff2'),
+         url('museo_slab_700-webfont.woff') format('woff'),
+         url('museo_slab_700-webfont.ttf') format('truetype'),
+         url('museo_slab_700-webfont.svg#museo_slab700') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_slab_italic';
+    src: url('museo_slab_700italic-webfont.eot');
+    src: url('museo_slab_700italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museo_slab_700italic-webfont.woff2') format('woff2'),
+         url('museo_slab_700italic-webfont.woff') format('woff'),
+         url('museo_slab_700italic-webfont.ttf') format('truetype'),
+         url('museo_slab_700italic-webfont.svg#museo_slab700_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
