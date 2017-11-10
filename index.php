@@ -9,7 +9,7 @@
 
    
     <!-- ThemeCSS & Responsive CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
