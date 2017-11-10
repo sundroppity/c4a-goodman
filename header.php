@@ -39,8 +39,8 @@
     <div class="site-title-table">
         <div class="site-title-tablecell">
             <div class="slide-text">
-                <h2><a href="index.html"><span>C_0_nclave 2017</span></a></h2>
-                <p>Section C-4A | Camp Manatoc | May 19-21</p>
+                <h2><a href="<?php echo get_bloginfo( 'wpurl' );?>"><span><?php echo get_bloginfo( 'name' ); ?></span></a></h2>
+                <p><?php echo get_bloginfo ( 'description' );?></p>
                 <div id="countdown" style="display: none;">
 
                     <div class="countdownLabel text-muted">Superheroes unite in:</div>
