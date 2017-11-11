@@ -23,7 +23,7 @@
 <body>
 
 <header class="header">
-    <div data-velocity="-.4" id="particles" class="header-bg"></div>
+  <div class="headerbg">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -41,17 +41,9 @@
             <div class="slide-text">
                 <h2><a href="<?php echo get_bloginfo( 'wpurl' );?>"><span><?php echo get_bloginfo( 'name' ); ?></span></a></h2>
                 <p><?php echo get_bloginfo ( 'description' );?></p>
-                <div id="countdown" style="display: none;">
-
-                    <div class="countdownLabel text-muted">Superheroes unite in:</div>
-                    <span class="days"></span>
-                    <span class="hours"></span>
-                    <span class="minutes"></span>
-                    <span class="seconds hidden-xs"></span>
-                </div>
-
             </div>
 
         </div>
     </div>
+	</div>
 </header>
