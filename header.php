@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title><?php get_bloginfo( 'name' ); ?></title>
+    <title><?php echo get_bloginfo( 'name' ); ?></title>
 
    
     <!-- ThemeCSS & Responsive CSS -->
